@@ -17,7 +17,7 @@ A counter on the screen keeps track of all the food collected and how much ants 
 When the game starts a for loop starts which instantiates the ants. The ant gameObjects are added to an instance of the Ant
 class.
 Every ant gets added to a list called antList.
-A foreach loop runs in the Update function with a switch case that controls the ants. There are 2 states; Wandering and Collecting.
+A foreach loop runs in the Update function with a state machine that controls the ants. There are 2 states; Wandering and Collecting.
 If the ant is in the wandering state he will pick a random position in a radius of 1.5 when the ant get to this position 
 he will pick a new random position and his current position gets saved in a list. This gets repeated until he is close enough 
 to a bug. When the ant is close to a bug he will collect food from the bug, this can be done 100 times before the
