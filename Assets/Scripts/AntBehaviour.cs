@@ -24,8 +24,7 @@ public class AntBehaviour : MonoBehaviour
         borderMin = Camera.main.ScreenToWorldPoint(Vector2.zero);
         for (int i = 0; i < 500; i++)
         {
-            GameObject antGameObjectInstance = Instantiate(ant);
-            antList.Add(new Ant(antGameObjectInstance));
+            antList.Add(new Ant(Instantiate(ant))); 
         }
         mothList = GetComponent<MothBehaviour>().mothList;
     }

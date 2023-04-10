@@ -512,6 +512,7 @@ GameObject:
   - component: {fileID: 1271621726}
   - component: {fileID: 1271621727}
   - component: {fileID: 1271621728}
+  - component: {fileID: 1271621729}
   m_Layer: 0
   m_Name: antHill
   m_TagString: Untagged
@@ -631,6 +632,18 @@ MonoBehaviour:
   antHill: {fileID: 1271621723}
   food: 
   antsAmount: 
+--- !u!114 &1271621729
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1271621723}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 18cf76341ece73243aeb80c70fac1e19, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1634933313
 GameObject:
   m_ObjectHideFlags: 0
